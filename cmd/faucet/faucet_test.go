@@ -19,7 +19,7 @@ package main
 import (
 	"testing"
 
-	"github.com/scroll-tech/go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/common"
 )
 
 func TestFacebook(t *testing.T) {

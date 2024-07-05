@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/scroll-tech/go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/common"
 )
 
 func mkHash(i int) common.Hash {

@@ -21,7 +21,7 @@ package p2p
 import (
 	"net"
 
-	"github.com/scroll-tech/go-ethereum/metrics"
+	"github.com/tenderly/morph-go-ethereum/metrics"
 )
 
 const (

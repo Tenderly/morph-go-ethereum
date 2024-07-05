@@ -23,9 +23,9 @@ import (
 	"errors"
 	leveldb "github.com/syndtr/goleveldb/leveldb/errors"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/ethdb/memorydb"
-	"github.com/scroll-tech/go-ethereum/metrics"
+	"github.com/tenderly/morph-go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/ethdb/memorydb"
+	"github.com/tenderly/morph-go-ethereum/metrics"
 )
 
 // The fields below define the low level database schema prefixing.

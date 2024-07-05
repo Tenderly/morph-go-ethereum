@@ -22,12 +22,12 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/crypto"
-	"github.com/scroll-tech/go-ethereum/eth/protocols/snap"
-	"github.com/scroll-tech/go-ethereum/internal/utesting"
-	"github.com/scroll-tech/go-ethereum/light"
-	"github.com/scroll-tech/go-ethereum/trie"
+	"github.com/tenderly/morph-go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/crypto"
+	"github.com/tenderly/morph-go-ethereum/eth/protocols/snap"
+	"github.com/tenderly/morph-go-ethereum/internal/utesting"
+	"github.com/tenderly/morph-go-ethereum/light"
+	"github.com/tenderly/morph-go-ethereum/trie"
 	"golang.org/x/crypto/sha3"
 )
 

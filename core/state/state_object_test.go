@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/scroll-tech/go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/common"
 )
 
 func BenchmarkCutOriginal(b *testing.B) {

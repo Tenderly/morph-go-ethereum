@@ -16,7 +16,7 @@
 
 package state
 
-import "github.com/scroll-tech/go-ethereum/metrics"
+import "github.com/tenderly/morph-go-ethereum/metrics"
 
 var (
 	accountUpdatedMeter   = metrics.NewRegisteredMeter("state/update/account", nil)

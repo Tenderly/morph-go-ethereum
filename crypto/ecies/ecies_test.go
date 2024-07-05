@@ -39,7 +39,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/scroll-tech/go-ethereum/crypto"
+	"github.com/tenderly/morph-go-ethereum/crypto"
 )
 
 func TestKDF(t *testing.T) {

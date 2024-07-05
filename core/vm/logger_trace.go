@@ -1,9 +1,9 @@
 package vm
 
 import (
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/common/hexutil"
-	"github.com/scroll-tech/go-ethereum/core/types"
+	"github.com/tenderly/morph-go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/common/hexutil"
+	"github.com/tenderly/morph-go-ethereum/core/types"
 )
 
 type traceFunc func(l *StructLogger, scope *ScopeContext, extraData *types.ExtraData) error

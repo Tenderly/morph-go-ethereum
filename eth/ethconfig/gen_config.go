@@ -6,13 +6,13 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/consensus/ethash"
-	"github.com/scroll-tech/go-ethereum/core"
-	"github.com/scroll-tech/go-ethereum/eth/downloader"
-	"github.com/scroll-tech/go-ethereum/eth/gasprice"
-	"github.com/scroll-tech/go-ethereum/miner"
-	"github.com/scroll-tech/go-ethereum/params"
+	"github.com/tenderly/morph-go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/consensus/ethash"
+	"github.com/tenderly/morph-go-ethereum/core"
+	"github.com/tenderly/morph-go-ethereum/eth/downloader"
+	"github.com/tenderly/morph-go-ethereum/eth/gasprice"
+	"github.com/tenderly/morph-go-ethereum/miner"
+	"github.com/tenderly/morph-go-ethereum/params"
 )
 
 // MarshalTOML marshals as TOML.

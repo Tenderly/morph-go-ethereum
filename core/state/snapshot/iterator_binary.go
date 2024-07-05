@@ -19,7 +19,7 @@ package snapshot
 import (
 	"bytes"
 
-	"github.com/scroll-tech/go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/common"
 )
 
 // binaryIterator is a simplistic iterator to step over the accounts or storage

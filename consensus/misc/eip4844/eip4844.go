@@ -3,7 +3,7 @@ package eip4844
 import (
 	"math/big"
 
-	"github.com/scroll-tech/go-ethereum/params"
+	"github.com/tenderly/morph-go-ethereum/params"
 )
 
 var (

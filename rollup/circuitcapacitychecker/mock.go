@@ -5,7 +5,7 @@ package circuitcapacitychecker
 import (
 	"math/rand"
 
-	"github.com/scroll-tech/go-ethereum/core/types"
+	"github.com/tenderly/morph-go-ethereum/core/types"
 )
 
 type CircuitCapacityChecker struct {

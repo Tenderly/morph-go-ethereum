@@ -3,7 +3,7 @@ package rawdb
 import (
 	"testing"
 
-	"github.com/scroll-tech/go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/common"
 )
 
 func TestReadWriteLastL1MessageInL2Block(t *testing.T) {

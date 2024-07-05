@@ -25,7 +25,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/log"
+	"github.com/tenderly/morph-go-ethereum/log"
 )
 
 const (

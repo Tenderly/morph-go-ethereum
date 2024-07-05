@@ -36,7 +36,7 @@ import (
 
 	"github.com/docker/docker/pkg/reexec"
 
-	"github.com/scroll-tech/go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/common"
 )
 
 func NewTestCmd(t *testing.T, data interface{}) *TestCmd {

@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/eth"
-	"github.com/scroll-tech/go-ethereum/eth/ethconfig"
-	"github.com/scroll-tech/go-ethereum/internal/utesting"
-	"github.com/scroll-tech/go-ethereum/node"
-	"github.com/scroll-tech/go-ethereum/p2p"
+	"github.com/tenderly/morph-go-ethereum/eth"
+	"github.com/tenderly/morph-go-ethereum/eth/ethconfig"
+	"github.com/tenderly/morph-go-ethereum/internal/utesting"
+	"github.com/tenderly/morph-go-ethereum/node"
+	"github.com/tenderly/morph-go-ethereum/p2p"
 )
 
 var (

@@ -23,7 +23,7 @@ import (
 
 	fuzz "github.com/google/gofuzz"
 
-	"github.com/scroll-tech/go-ethereum/accounts/abi"
+	"github.com/tenderly/morph-go-ethereum/accounts/abi"
 )
 
 var (

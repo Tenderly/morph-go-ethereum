@@ -21,7 +21,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/scroll-tech/go-ethereum/rlp"
+	"github.com/tenderly/morph-go-ethereum/rlp"
 )
 
 // Entry is implemented by known node record entry types.

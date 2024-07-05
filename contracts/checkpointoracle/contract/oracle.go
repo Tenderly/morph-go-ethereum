@@ -7,12 +7,12 @@ import (
 	"math/big"
 	"strings"
 
-	ethereum "github.com/scroll-tech/go-ethereum"
-	"github.com/scroll-tech/go-ethereum/accounts/abi"
-	"github.com/scroll-tech/go-ethereum/accounts/abi/bind"
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/core/types"
-	"github.com/scroll-tech/go-ethereum/event"
+	ethereum "github.com/tenderly/morph-go-ethereum"
+	"github.com/tenderly/morph-go-ethereum/accounts/abi"
+	"github.com/tenderly/morph-go-ethereum/accounts/abi/bind"
+	"github.com/tenderly/morph-go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/core/types"
+	"github.com/tenderly/morph-go-ethereum/event"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

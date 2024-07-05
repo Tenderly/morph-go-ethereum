@@ -20,9 +20,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/core/state/snapshot"
-	"github.com/scroll-tech/go-ethereum/rlp"
+	"github.com/tenderly/morph-go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/core/state/snapshot"
+	"github.com/tenderly/morph-go-ethereum/rlp"
 )
 
 // Constants to match up protocol versions and messages
