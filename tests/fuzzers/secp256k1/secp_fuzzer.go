@@ -25,7 +25,7 @@ import (
 
 	fuzz "github.com/google/gofuzz"
 
-	"github.com/tenderly/morph-go-ethereum/crypto/secp256k1"
+	"github.com/ethereum/go-ethereum/crypto/secp256k1"
 )
 
 func Fuzz(input []byte) int {
