@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/scroll-tech/go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/common"
 )
 
 // Type enumerator

@@ -18,7 +18,7 @@
 package ethconfig
 
 import (
-	"github.com/scroll-tech/go-ethereum/consensus/l2"
+	"github.com/tenderly/morph-go-ethereum/consensus/l2"
 	"math/big"
 	"os"
 	"os/user"
@@ -26,16 +26,16 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/consensus"
-	"github.com/scroll-tech/go-ethereum/consensus/clique"
-	"github.com/scroll-tech/go-ethereum/consensus/ethash"
-	"github.com/scroll-tech/go-ethereum/core"
-	"github.com/scroll-tech/go-ethereum/eth/downloader"
-	"github.com/scroll-tech/go-ethereum/eth/gasprice"
-	"github.com/scroll-tech/go-ethereum/ethdb"
-	"github.com/scroll-tech/go-ethereum/miner"
-	"github.com/scroll-tech/go-ethereum/params"
+	"github.com/tenderly/morph-go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/consensus"
+	"github.com/tenderly/morph-go-ethereum/consensus/clique"
+	"github.com/tenderly/morph-go-ethereum/consensus/ethash"
+	"github.com/tenderly/morph-go-ethereum/core"
+	"github.com/tenderly/morph-go-ethereum/eth/downloader"
+	"github.com/tenderly/morph-go-ethereum/eth/gasprice"
+	"github.com/tenderly/morph-go-ethereum/ethdb"
+	"github.com/tenderly/morph-go-ethereum/miner"
+	"github.com/tenderly/morph-go-ethereum/params"
 )
 
 // FullNodeGPO contains default gasprice oracle settings for full node.

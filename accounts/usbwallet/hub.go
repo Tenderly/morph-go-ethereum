@@ -25,9 +25,9 @@ import (
 
 	"github.com/karalabe/usb"
 
-	"github.com/scroll-tech/go-ethereum/accounts"
-	"github.com/scroll-tech/go-ethereum/event"
-	"github.com/scroll-tech/go-ethereum/log"
+	"github.com/tenderly/morph-go-ethereum/accounts"
+	"github.com/tenderly/morph-go-ethereum/event"
+	"github.com/tenderly/morph-go-ethereum/log"
 )
 
 // LedgerScheme is the protocol scheme prefixing account and wallet URLs.

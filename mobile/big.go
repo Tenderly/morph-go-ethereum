@@ -22,7 +22,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/scroll-tech/go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/common"
 )
 
 // A BigInt represents a signed multi-precision integer.

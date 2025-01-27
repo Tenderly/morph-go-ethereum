@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/eth/protocols/eth"
-	"github.com/scroll-tech/go-ethereum/p2p"
-	"github.com/scroll-tech/go-ethereum/p2p/rlpx"
-	"github.com/scroll-tech/go-ethereum/rlp"
+	"github.com/tenderly/morph-go-ethereum/eth/protocols/eth"
+	"github.com/tenderly/morph-go-ethereum/p2p"
+	"github.com/tenderly/morph-go-ethereum/p2p/rlpx"
+	"github.com/tenderly/morph-go-ethereum/rlp"
 )
 
 type Message interface {

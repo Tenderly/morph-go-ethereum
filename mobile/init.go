@@ -22,7 +22,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/scroll-tech/go-ethereum/log"
+	"github.com/tenderly/morph-go-ethereum/log"
 )
 
 func init() {

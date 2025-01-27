@@ -28,7 +28,7 @@ import (
 	"golang.org/x/tools/go/packages"
 )
 
-const pathOfPackageRLP = "github.com/scroll-tech/go-ethereum/rlp"
+const pathOfPackageRLP = "github.com/tenderly/morph-go-ethereum/rlp"
 
 func main() {
 	var (

@@ -29,8 +29,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/scroll-tech/go-ethereum/ethdb"
-	"github.com/scroll-tech/go-ethereum/rlp"
+	"github.com/tenderly/morph-go-ethereum/ethdb"
+	"github.com/tenderly/morph-go-ethereum/rlp"
 )
 
 var freezerTestTableDef = map[string]bool{"test": true}

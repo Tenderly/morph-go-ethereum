@@ -23,10 +23,10 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/crypto"
-	"github.com/scroll-tech/go-ethereum/crypto/codehash"
-	"github.com/scroll-tech/go-ethereum/params"
+	"github.com/tenderly/morph-go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/crypto"
+	"github.com/tenderly/morph-go-ethereum/crypto/codehash"
+	"github.com/tenderly/morph-go-ethereum/params"
 )
 
 // emptyKeccakCodeHash is used by create to ensure deployment is disallowed to already

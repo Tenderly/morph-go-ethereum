@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/scroll-tech/go-ethereum/node"
+	"github.com/tenderly/morph-go-ethereum/node"
 )
 
 // SampleLifecycle is a trivial network service that can be attached to a node for

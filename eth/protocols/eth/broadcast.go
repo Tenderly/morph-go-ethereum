@@ -19,8 +19,8 @@ package eth
 import (
 	"math/big"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/core/types"
+	"github.com/tenderly/morph-go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/core/types"
 )
 
 const (

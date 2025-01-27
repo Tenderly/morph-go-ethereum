@@ -26,23 +26,23 @@ import (
 	"testing"
 	"unicode"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/common/hexutil"
-	"github.com/scroll-tech/go-ethereum/common/math"
-	"github.com/scroll-tech/go-ethereum/core"
-	"github.com/scroll-tech/go-ethereum/core/rawdb"
-	"github.com/scroll-tech/go-ethereum/core/types"
-	"github.com/scroll-tech/go-ethereum/core/vm"
-	"github.com/scroll-tech/go-ethereum/crypto"
-	"github.com/scroll-tech/go-ethereum/eth/tracers"
-	"github.com/scroll-tech/go-ethereum/params"
-	"github.com/scroll-tech/go-ethereum/rlp"
-	"github.com/scroll-tech/go-ethereum/rollup/fees"
-	"github.com/scroll-tech/go-ethereum/tests"
+	"github.com/tenderly/morph-go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/common/hexutil"
+	"github.com/tenderly/morph-go-ethereum/common/math"
+	"github.com/tenderly/morph-go-ethereum/core"
+	"github.com/tenderly/morph-go-ethereum/core/rawdb"
+	"github.com/tenderly/morph-go-ethereum/core/types"
+	"github.com/tenderly/morph-go-ethereum/core/vm"
+	"github.com/tenderly/morph-go-ethereum/crypto"
+	"github.com/tenderly/morph-go-ethereum/eth/tracers"
+	"github.com/tenderly/morph-go-ethereum/params"
+	"github.com/tenderly/morph-go-ethereum/rlp"
+	"github.com/tenderly/morph-go-ethereum/rollup/fees"
+	"github.com/tenderly/morph-go-ethereum/tests"
 
 	// Force-load native and js pacakges, to trigger registration
-	_ "github.com/scroll-tech/go-ethereum/eth/tracers/js"
-	_ "github.com/scroll-tech/go-ethereum/eth/tracers/native"
+	_ "github.com/tenderly/morph-go-ethereum/eth/tracers/js"
+	_ "github.com/tenderly/morph-go-ethereum/eth/tracers/native"
 )
 
 // To generate a new callTracer test, copy paste the makeTest method below into

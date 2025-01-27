@@ -19,8 +19,8 @@ package downloader
 import (
 	"sync"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/log"
+	"github.com/tenderly/morph-go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/log"
 )
 
 // syncState starts downloading state with the given root hash.

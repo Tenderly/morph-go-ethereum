@@ -21,9 +21,9 @@ import (
 	"math"
 	"testing"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/params"
-	"github.com/scroll-tech/go-ethereum/rlp"
+	"github.com/tenderly/morph-go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/params"
+	"github.com/tenderly/morph-go-ethereum/rlp"
 )
 
 // TestCreation tests that different genesis and fork rule combinations result in

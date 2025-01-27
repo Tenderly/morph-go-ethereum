@@ -26,16 +26,16 @@ import (
 
 	zkt "github.com/scroll-tech/zktrie/types"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/core/rawdb"
-	"github.com/scroll-tech/go-ethereum/core/state/snapshot"
-	"github.com/scroll-tech/go-ethereum/core/types"
-	"github.com/scroll-tech/go-ethereum/crypto"
-	"github.com/scroll-tech/go-ethereum/log"
-	"github.com/scroll-tech/go-ethereum/metrics"
-	"github.com/scroll-tech/go-ethereum/params"
-	"github.com/scroll-tech/go-ethereum/rlp"
-	"github.com/scroll-tech/go-ethereum/trie"
+	"github.com/tenderly/morph-go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/core/rawdb"
+	"github.com/tenderly/morph-go-ethereum/core/state/snapshot"
+	"github.com/tenderly/morph-go-ethereum/core/types"
+	"github.com/tenderly/morph-go-ethereum/crypto"
+	"github.com/tenderly/morph-go-ethereum/log"
+	"github.com/tenderly/morph-go-ethereum/metrics"
+	"github.com/tenderly/morph-go-ethereum/params"
+	"github.com/tenderly/morph-go-ethereum/rlp"
+	"github.com/tenderly/morph-go-ethereum/trie"
 )
 
 type revision struct {
@@ -727,7 +727,7 @@ func (s *StateDB) Copy() *StateDB {
 	}
 	// Copy the dirty states, logs, and preimages
 	for addr := range s.journal.dirties {
-		// As documented [here](https://github.com/scroll-tech/go-ethereum/pull/16485#issuecomment-380438527),
+		// As documented [here](https://github.com/tenderly/morph-go-ethereum/pull/16485#issuecomment-380438527),
 		// and in the Finalise-method, there is a case where an object is in the journal but not
 		// in the stateObjects: OOG after touch on ripeMD prior to Byzantium. Thus, we need to check for
 		// nil

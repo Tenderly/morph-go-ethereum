@@ -5,8 +5,8 @@ package types
 import (
 	"encoding/json"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/common/hexutil"
+	"github.com/tenderly/morph-go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/common/hexutil"
 )
 
 var _ = (*rollupBatchMarshaling)(nil)

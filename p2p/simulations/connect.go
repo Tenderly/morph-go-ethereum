@@ -20,7 +20,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/scroll-tech/go-ethereum/p2p/enode"
+	"github.com/tenderly/morph-go-ethereum/p2p/enode"
 )
 
 var (

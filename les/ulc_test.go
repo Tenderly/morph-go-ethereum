@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/crypto"
-	"github.com/scroll-tech/go-ethereum/p2p"
-	"github.com/scroll-tech/go-ethereum/p2p/enode"
+	"github.com/tenderly/morph-go-ethereum/crypto"
+	"github.com/tenderly/morph-go-ethereum/p2p"
+	"github.com/tenderly/morph-go-ethereum/p2p/enode"
 )
 
 func TestULCAnnounceThresholdLes2(t *testing.T) { testULCAnnounceThreshold(t, 2) }

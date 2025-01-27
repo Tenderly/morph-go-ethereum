@@ -28,11 +28,11 @@ import (
 
 	"github.com/prometheus/tsdb/fileutil"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/ethdb"
-	"github.com/scroll-tech/go-ethereum/log"
-	"github.com/scroll-tech/go-ethereum/metrics"
-	"github.com/scroll-tech/go-ethereum/params"
+	"github.com/tenderly/morph-go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/ethdb"
+	"github.com/tenderly/morph-go-ethereum/log"
+	"github.com/tenderly/morph-go-ethereum/metrics"
+	"github.com/tenderly/morph-go-ethereum/params"
 )
 
 var (

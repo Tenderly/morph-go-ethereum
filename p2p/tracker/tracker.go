@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/log"
-	"github.com/scroll-tech/go-ethereum/metrics"
+	"github.com/tenderly/morph-go-ethereum/log"
+	"github.com/tenderly/morph-go-ethereum/metrics"
 )
 
 const (

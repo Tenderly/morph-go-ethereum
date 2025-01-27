@@ -30,10 +30,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/common/hexutil"
-	"github.com/scroll-tech/go-ethereum/consensus"
-	"github.com/scroll-tech/go-ethereum/core/types"
+	"github.com/tenderly/morph-go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/common/hexutil"
+	"github.com/tenderly/morph-go-ethereum/consensus"
+	"github.com/tenderly/morph-go-ethereum/core/types"
 )
 
 const (

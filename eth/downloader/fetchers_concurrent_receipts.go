@@ -19,9 +19,9 @@ package downloader
 import (
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/eth/protocols/eth"
-	"github.com/scroll-tech/go-ethereum/log"
+	"github.com/tenderly/morph-go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/eth/protocols/eth"
+	"github.com/tenderly/morph-go-ethereum/log"
 )
 
 // receiptQueue implements typedQueue and is a type adapter between the generic

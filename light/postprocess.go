@@ -27,16 +27,16 @@ import (
 
 	mapset "github.com/deckarep/golang-set"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/common/bitutil"
-	"github.com/scroll-tech/go-ethereum/core"
-	"github.com/scroll-tech/go-ethereum/core/rawdb"
-	"github.com/scroll-tech/go-ethereum/core/types"
-	"github.com/scroll-tech/go-ethereum/ethdb"
-	"github.com/scroll-tech/go-ethereum/log"
-	"github.com/scroll-tech/go-ethereum/params"
-	"github.com/scroll-tech/go-ethereum/rlp"
-	"github.com/scroll-tech/go-ethereum/trie"
+	"github.com/tenderly/morph-go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/common/bitutil"
+	"github.com/tenderly/morph-go-ethereum/core"
+	"github.com/tenderly/morph-go-ethereum/core/rawdb"
+	"github.com/tenderly/morph-go-ethereum/core/types"
+	"github.com/tenderly/morph-go-ethereum/ethdb"
+	"github.com/tenderly/morph-go-ethereum/log"
+	"github.com/tenderly/morph-go-ethereum/params"
+	"github.com/tenderly/morph-go-ethereum/rlp"
+	"github.com/tenderly/morph-go-ethereum/trie"
 )
 
 // IndexerConfig includes a set of configs for chain indexers.

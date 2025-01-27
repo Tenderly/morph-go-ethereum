@@ -28,8 +28,8 @@ import (
 
 	bloomfilter "github.com/holiman/bloomfilter/v2"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/rlp"
+	"github.com/tenderly/morph-go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/rlp"
 )
 
 var (

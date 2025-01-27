@@ -19,7 +19,7 @@ package core
 import (
 	"runtime"
 
-	"github.com/scroll-tech/go-ethereum/core/types"
+	"github.com/tenderly/morph-go-ethereum/core/types"
 )
 
 // senderCacher is a concurrent transaction sender recoverer and cacher.

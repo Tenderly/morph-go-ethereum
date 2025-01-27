@@ -17,8 +17,8 @@
 package les
 
 import (
-	"github.com/scroll-tech/go-ethereum/metrics"
-	"github.com/scroll-tech/go-ethereum/p2p"
+	"github.com/tenderly/morph-go-ethereum/metrics"
+	"github.com/tenderly/morph-go-ethereum/p2p"
 )
 
 var (

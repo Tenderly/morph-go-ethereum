@@ -23,10 +23,10 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/crypto/kzg4844"
-	"github.com/scroll-tech/go-ethereum/params"
-	"github.com/scroll-tech/go-ethereum/rlp"
+	"github.com/tenderly/morph-go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/crypto/kzg4844"
+	"github.com/tenderly/morph-go-ethereum/params"
+	"github.com/tenderly/morph-go-ethereum/rlp"
 )
 
 // BlobTx represents an EIP-4844 transaction.

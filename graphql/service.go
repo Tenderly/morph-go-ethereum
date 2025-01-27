@@ -19,7 +19,7 @@ package graphql
 import (
 	"context"
 	"encoding/json"
-	"github.com/scroll-tech/go-ethereum/eth/filters"
+	"github.com/tenderly/morph-go-ethereum/eth/filters"
 	"net/http"
 	"strconv"
 	"sync"
@@ -27,9 +27,9 @@ import (
 
 	"github.com/graph-gophers/graphql-go"
 	gqlErrors "github.com/graph-gophers/graphql-go/errors"
-	"github.com/scroll-tech/go-ethereum/internal/ethapi"
-	"github.com/scroll-tech/go-ethereum/node"
-	"github.com/scroll-tech/go-ethereum/rpc"
+	"github.com/tenderly/morph-go-ethereum/internal/ethapi"
+	"github.com/tenderly/morph-go-ethereum/node"
+	"github.com/tenderly/morph-go-ethereum/rpc"
 )
 
 type handler struct {

@@ -25,10 +25,10 @@ import (
 	"io"
 	"sync"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/ethdb"
-	"github.com/scroll-tech/go-ethereum/log"
-	"github.com/scroll-tech/go-ethereum/rlp"
+	"github.com/tenderly/morph-go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/ethdb"
+	"github.com/tenderly/morph-go-ethereum/log"
+	"github.com/tenderly/morph-go-ethereum/rlp"
 )
 
 var ErrCommitDisabled = errors.New("no database for committing")

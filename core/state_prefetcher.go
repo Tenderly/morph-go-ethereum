@@ -20,12 +20,12 @@ import (
 	"math/big"
 	"sync/atomic"
 
-	"github.com/scroll-tech/go-ethereum/consensus"
-	"github.com/scroll-tech/go-ethereum/core/state"
-	"github.com/scroll-tech/go-ethereum/core/types"
-	"github.com/scroll-tech/go-ethereum/core/vm"
-	"github.com/scroll-tech/go-ethereum/params"
-	"github.com/scroll-tech/go-ethereum/rollup/fees"
+	"github.com/tenderly/morph-go-ethereum/consensus"
+	"github.com/tenderly/morph-go-ethereum/core/state"
+	"github.com/tenderly/morph-go-ethereum/core/types"
+	"github.com/tenderly/morph-go-ethereum/core/vm"
+	"github.com/tenderly/morph-go-ethereum/params"
+	"github.com/tenderly/morph-go-ethereum/rollup/fees"
 )
 
 // statePrefetcher is a basic Prefetcher, which blindly executes a block on top

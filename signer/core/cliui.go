@@ -24,10 +24,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/scroll-tech/go-ethereum/common/hexutil"
-	"github.com/scroll-tech/go-ethereum/console/prompt"
-	"github.com/scroll-tech/go-ethereum/internal/ethapi"
-	"github.com/scroll-tech/go-ethereum/log"
+	"github.com/tenderly/morph-go-ethereum/common/hexutil"
+	"github.com/tenderly/morph-go-ethereum/console/prompt"
+	"github.com/tenderly/morph-go-ethereum/internal/ethapi"
+	"github.com/tenderly/morph-go-ethereum/log"
 )
 
 type CommandlineUI struct {

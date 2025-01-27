@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/scroll-tech/go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/common"
 )
 
 func TestMemoryCopy(t *testing.T) {

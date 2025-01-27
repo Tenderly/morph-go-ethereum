@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"math/big"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/common/hexutil"
-	"github.com/scroll-tech/go-ethereum/params"
+	"github.com/tenderly/morph-go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/common/hexutil"
+	"github.com/tenderly/morph-go-ethereum/params"
 )
 
 // BlockTrace contains block execution traces and results required for rollers.

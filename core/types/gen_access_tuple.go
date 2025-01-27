@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/scroll-tech/go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/common"
 )
 
 // MarshalJSON marshals as JSON.

@@ -21,7 +21,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/scroll-tech/go-ethereum/tests/fuzzers/rangeproof"
+	"github.com/tenderly/morph-go-ethereum/tests/fuzzers/rangeproof"
 )
 
 func main() {

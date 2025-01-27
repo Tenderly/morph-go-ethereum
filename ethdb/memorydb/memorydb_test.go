@@ -19,8 +19,8 @@ package memorydb
 import (
 	"testing"
 
-	"github.com/scroll-tech/go-ethereum/ethdb"
-	"github.com/scroll-tech/go-ethereum/ethdb/dbtest"
+	"github.com/tenderly/morph-go-ethereum/ethdb"
+	"github.com/tenderly/morph-go-ethereum/ethdb/dbtest"
 )
 
 func TestMemoryDB(t *testing.T) {

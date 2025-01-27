@@ -32,19 +32,19 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"github.com/scroll-tech/go-ethereum"
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/common/mclock"
-	"github.com/scroll-tech/go-ethereum/consensus"
-	"github.com/scroll-tech/go-ethereum/core"
-	"github.com/scroll-tech/go-ethereum/core/types"
-	ethproto "github.com/scroll-tech/go-ethereum/eth/protocols/eth"
-	"github.com/scroll-tech/go-ethereum/event"
-	"github.com/scroll-tech/go-ethereum/les"
-	"github.com/scroll-tech/go-ethereum/log"
-	"github.com/scroll-tech/go-ethereum/node"
-	"github.com/scroll-tech/go-ethereum/p2p"
-	"github.com/scroll-tech/go-ethereum/rpc"
+	"github.com/tenderly/morph-go-ethereum"
+	"github.com/tenderly/morph-go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/common/mclock"
+	"github.com/tenderly/morph-go-ethereum/consensus"
+	"github.com/tenderly/morph-go-ethereum/core"
+	"github.com/tenderly/morph-go-ethereum/core/types"
+	ethproto "github.com/tenderly/morph-go-ethereum/eth/protocols/eth"
+	"github.com/tenderly/morph-go-ethereum/event"
+	"github.com/tenderly/morph-go-ethereum/les"
+	"github.com/tenderly/morph-go-ethereum/log"
+	"github.com/tenderly/morph-go-ethereum/node"
+	"github.com/tenderly/morph-go-ethereum/p2p"
+	"github.com/tenderly/morph-go-ethereum/rpc"
 )
 
 const (

@@ -19,8 +19,8 @@ package vm
 import (
 	"github.com/holiman/uint256"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/common/math"
+	"github.com/tenderly/morph-go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/common/math"
 )
 
 // calcMemSize64 calculates the required memory size, and returns

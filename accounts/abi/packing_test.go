@@ -19,7 +19,7 @@ package abi
 import (
 	"math/big"
 
-	"github.com/scroll-tech/go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/common"
 )
 
 type packUnpackTest struct {

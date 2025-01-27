@@ -23,10 +23,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/accounts"
-	"github.com/scroll-tech/go-ethereum/accounts/keystore"
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/crypto"
+	"github.com/tenderly/morph-go-ethereum/accounts"
+	"github.com/tenderly/morph-go-ethereum/accounts/keystore"
+	"github.com/tenderly/morph-go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/crypto"
 )
 
 const (

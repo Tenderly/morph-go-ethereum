@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/common"
 )
 
 // pendingTTL indicates the period of time a generated pending block should

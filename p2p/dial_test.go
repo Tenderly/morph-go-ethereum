@@ -27,11 +27,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/common/mclock"
-	"github.com/scroll-tech/go-ethereum/internal/testlog"
-	"github.com/scroll-tech/go-ethereum/log"
-	"github.com/scroll-tech/go-ethereum/p2p/enode"
-	"github.com/scroll-tech/go-ethereum/p2p/netutil"
+	"github.com/tenderly/morph-go-ethereum/common/mclock"
+	"github.com/tenderly/morph-go-ethereum/internal/testlog"
+	"github.com/tenderly/morph-go-ethereum/log"
+	"github.com/tenderly/morph-go-ethereum/p2p/enode"
+	"github.com/tenderly/morph-go-ethereum/p2p/netutil"
 )
 
 // This test checks that dynamic dials are launched from discovery results.

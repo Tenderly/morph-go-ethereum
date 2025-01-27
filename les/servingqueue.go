@@ -21,8 +21,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/scroll-tech/go-ethereum/common/mclock"
-	"github.com/scroll-tech/go-ethereum/common/prque"
+	"github.com/tenderly/morph-go-ethereum/common/mclock"
+	"github.com/tenderly/morph-go-ethereum/common/prque"
 )
 
 // servingQueue allows running tasks in a limited number of threads and puts the

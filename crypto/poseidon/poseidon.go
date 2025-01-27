@@ -10,7 +10,7 @@ import (
 	"github.com/iden3/go-iden3-crypto/ff"
 	"github.com/iden3/go-iden3-crypto/utils"
 
-	"github.com/scroll-tech/go-ethereum/log"
+	"github.com/tenderly/morph-go-ethereum/log"
 )
 
 const NROUNDSF = 8 //nolint:golint

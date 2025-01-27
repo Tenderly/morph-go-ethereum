@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/scroll-tech/go-ethereum/params"
+	"github.com/tenderly/morph-go-ethereum/params"
 )
 
 func TestCalcExcessBlobGas(t *testing.T) {

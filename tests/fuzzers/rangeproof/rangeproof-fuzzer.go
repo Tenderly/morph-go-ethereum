@@ -23,9 +23,9 @@ import (
 	"io"
 	"sort"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/ethdb/memorydb"
-	"github.com/scroll-tech/go-ethereum/trie"
+	"github.com/tenderly/morph-go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/ethdb/memorydb"
+	"github.com/tenderly/morph-go-ethereum/trie"
 )
 
 type kv struct {

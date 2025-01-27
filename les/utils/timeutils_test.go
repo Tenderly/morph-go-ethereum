@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/common/mclock"
+	"github.com/tenderly/morph-go-ethereum/common/mclock"
 )
 
 func TestUpdateTimer(t *testing.T) {

@@ -22,10 +22,10 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/core/rawdb"
-	"github.com/scroll-tech/go-ethereum/core/state"
-	"github.com/scroll-tech/go-ethereum/params"
+	"github.com/tenderly/morph-go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/core/rawdb"
+	"github.com/tenderly/morph-go-ethereum/core/state"
+	"github.com/tenderly/morph-go-ethereum/params"
 )
 
 type dummyContractRef struct {

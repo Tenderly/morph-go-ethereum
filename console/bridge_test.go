@@ -21,7 +21,7 @@ import (
 
 	"github.com/dop251/goja"
 
-	"github.com/scroll-tech/go-ethereum/internal/jsre"
+	"github.com/tenderly/morph-go-ethereum/internal/jsre"
 )
 
 // TestUndefinedAsParam ensures that personal functions can receive

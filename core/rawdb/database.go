@@ -26,11 +26,11 @@ import (
 
 	"github.com/olekukonko/tablewriter"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/ethdb"
-	"github.com/scroll-tech/go-ethereum/ethdb/leveldb"
-	"github.com/scroll-tech/go-ethereum/ethdb/memorydb"
-	"github.com/scroll-tech/go-ethereum/log"
+	"github.com/tenderly/morph-go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/ethdb"
+	"github.com/tenderly/morph-go-ethereum/ethdb/leveldb"
+	"github.com/tenderly/morph-go-ethereum/ethdb/memorydb"
+	"github.com/tenderly/morph-go-ethereum/log"
 )
 
 // freezerdb is a database wrapper that enabled freezer data retrievals.

@@ -22,8 +22,8 @@ import (
 
 	"github.com/golang/snappy"
 
-	"github.com/scroll-tech/go-ethereum/common/math"
-	"github.com/scroll-tech/go-ethereum/rlp"
+	"github.com/tenderly/morph-go-ethereum/common/math"
+	"github.com/tenderly/morph-go-ethereum/rlp"
 )
 
 // This is the maximum amount of data that will be buffered in memory

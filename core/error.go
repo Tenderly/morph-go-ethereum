@@ -19,7 +19,7 @@ package core
 import (
 	"errors"
 
-	"github.com/scroll-tech/go-ethereum/core/types"
+	"github.com/tenderly/morph-go-ethereum/core/types"
 )
 
 var (

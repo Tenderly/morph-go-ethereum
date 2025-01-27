@@ -30,7 +30,7 @@ import (
 
 	"golang.org/x/crypto/sha3"
 
-	"github.com/scroll-tech/go-ethereum/common/hexutil"
+	"github.com/tenderly/morph-go-ethereum/common/hexutil"
 )
 
 // Lengths of hashes and addresses in bytes.

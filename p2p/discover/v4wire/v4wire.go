@@ -27,11 +27,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/scroll-tech/go-ethereum/common/math"
-	"github.com/scroll-tech/go-ethereum/crypto"
-	"github.com/scroll-tech/go-ethereum/p2p/enode"
-	"github.com/scroll-tech/go-ethereum/p2p/enr"
-	"github.com/scroll-tech/go-ethereum/rlp"
+	"github.com/tenderly/morph-go-ethereum/common/math"
+	"github.com/tenderly/morph-go-ethereum/crypto"
+	"github.com/tenderly/morph-go-ethereum/p2p/enode"
+	"github.com/tenderly/morph-go-ethereum/p2p/enr"
+	"github.com/tenderly/morph-go-ethereum/rlp"
 )
 
 // RPC packet types

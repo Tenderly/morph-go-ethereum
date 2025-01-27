@@ -19,7 +19,7 @@ package types
 import (
 	"math/big"
 
-	"github.com/scroll-tech/go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/common"
 )
 
 // StateAccount is the Ethereum consensus representation of accounts.

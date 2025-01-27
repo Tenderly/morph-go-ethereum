@@ -1,10 +1,10 @@
 package types
 
 import (
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/common/hexutil"
-	"github.com/scroll-tech/go-ethereum/crypto/kzg4844"
-	"github.com/scroll-tech/go-ethereum/rlp"
+	"github.com/tenderly/morph-go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/common/hexutil"
+	"github.com/tenderly/morph-go-ethereum/crypto/kzg4844"
+	"github.com/tenderly/morph-go-ethereum/rlp"
 )
 
 //go:generate go run github.com/fjl/gencodec -type RollupBatch -field-override rollupBatchMarshaling -out gen_batch.go

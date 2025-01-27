@@ -21,13 +21,13 @@ import (
 	"fmt"
 
 	lru "github.com/hashicorp/golang-lru"
-	lru2 "github.com/scroll-tech/go-ethereum/common/lru"
+	lru2 "github.com/tenderly/morph-go-ethereum/common/lru"
 
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/core/rawdb"
-	"github.com/scroll-tech/go-ethereum/core/types"
-	"github.com/scroll-tech/go-ethereum/ethdb"
-	"github.com/scroll-tech/go-ethereum/trie"
+	"github.com/tenderly/morph-go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/core/rawdb"
+	"github.com/tenderly/morph-go-ethereum/core/types"
+	"github.com/tenderly/morph-go-ethereum/ethdb"
+	"github.com/tenderly/morph-go-ethereum/trie"
 )
 
 const (

@@ -24,12 +24,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/scroll-tech/go-ethereum"
-	"github.com/scroll-tech/go-ethereum/accounts/abi"
-	"github.com/scroll-tech/go-ethereum/common"
-	"github.com/scroll-tech/go-ethereum/core/types"
-	"github.com/scroll-tech/go-ethereum/crypto"
-	"github.com/scroll-tech/go-ethereum/event"
+	"github.com/tenderly/morph-go-ethereum"
+	"github.com/tenderly/morph-go-ethereum/accounts/abi"
+	"github.com/tenderly/morph-go-ethereum/common"
+	"github.com/tenderly/morph-go-ethereum/core/types"
+	"github.com/tenderly/morph-go-ethereum/crypto"
+	"github.com/tenderly/morph-go-ethereum/event"
 )
 
 // SignerFn is a signer function callback when a contract requires a method to
